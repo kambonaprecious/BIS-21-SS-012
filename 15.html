@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>this is a heading in an h3 tag</h3>
+    <p>a paragraph i have written to just fill in this p tag for question
+        number 15. these are just random words.
+    </p>
+
+    <script>
+       // This function gets the h3 and p elements and updates their content.
+        function updateContent() {
+            const headingElement = document.getElementsByTagName('h3')[0];
+            const paragraphElement = document.getElementsByTagName('p')[0];
+
+  
+            // Update the content of the h3 element.
+            headingElement.textContent = "I'm a new heading!";
+
+        // Update the content of the p element.
+        paragraphElement.textContent = "This is a brand new paragraph's content.";
+  
+        }
+
+        updateContent(); 
+    </script>
+    
+</body>
+</html>
